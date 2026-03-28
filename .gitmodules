@@ -1,0 +1,3 @@
+[submodule "financee"]
+	path = financee
+	url = git@github.com:nixonsu/financee.git
