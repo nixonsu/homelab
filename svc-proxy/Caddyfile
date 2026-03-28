@@ -1,0 +1,15 @@
+{
+	acme_dns spaceship {
+		api_key {env.LIBDNS_SPACESHIP_APIKEY}
+		api_secret {env.LIBDNS_SPACESHIP_APISECRET}
+	}
+}
+
+financee.svc.nixonsu.com {
+	reverse_proxy localhost:3000
+}
+
+immich.svc.nixonsu.com {
+	reverse_proxy localhost:2283
+}
+
