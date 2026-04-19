@@ -5,11 +5,10 @@
 	}
 }
 
-financee.svc.nixonsu.com {
+breadbook.svc.nixonsu.com {
 	reverse_proxy localhost:3000
 }
 
 immich.svc.nixonsu.com {
 	reverse_proxy localhost:2283
 }
-
